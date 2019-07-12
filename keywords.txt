@@ -1,0 +1,84 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DotMatrix	KEYWORD1
+Ticker	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+# class DotMatrix
+init	KEYWORD2
+clearScreen	KEYWORD2
+selectScreen	KEYWORD2
+swapScreen	KEYWORD2
+setOffset	KEYWORD2
+displayText	KEYWORD2
+displayGraphics	KEYWORD2
+pattern2PixCol	KEYWORD2
+setPixCol	KEYWORD2
+setPixel	KEYWORD2
+getPixel	KEYWORD2
+displayLogo	KEYWORD2
+update	KEYWORD2
+
+# class Ticker
+clearBuffer	KEYWORD2
+printChar	KEYWORD2
+printString	KEYWORD2
+printString_P	KEYWORD2
+setViewport	KEYWORD2
+clearViewport	KEYWORD2
+setSpeed	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+update	KEYWORD2
+
+
+######################################
+# Constants (LITERAL1)
+#######################################
+# screens
+VISIBLE	LITERAL1
+HIDDEN	LITERAL1
+
+# colors
+RED	LITERAL1
+LIGHTRED	LITERAL1
+REDORANGE	LITERAL1
+ORANGE	LITERAL1
+LIGHTORANGE	LITERAL1
+YELLOW	LITERAL1
+GREEN	LITERAL1
+MEDIUMRED	LITERAL1
+MEDIUMORANGE	LITERAL1
+MEDIUMGREEN	LITERAL1
+DARKRED	LITERAL1
+DARKORANGE	LITERAL1
+DARKGREEN	LITERAL1
+BLACK	LITERAL1
+
+# display modes
+OPAQUE	LITERAL1
+TRANSPARENT	LITERAL1
+XOR	LITERAL1
+
+# dot matrix display
+NUM_BLOCKS_X	LITERAL1
+NUM_BLOCKS_Y	LITERAL1
+NUM_BLOCKS	LITERAL1
+DIM_X	LITERAL1
+DIM_Y	LITERAL1
+MAX_BRIGHTNESS	LITERAL1
+
+# memory types
+RAM	LITERAL1
+FLASH	LITERAL1
+EEPROM	LITERAL1
